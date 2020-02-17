@@ -1,0 +1,66 @@
+:root {
+    --dark-blue: #171f24;
+    --medium-blue: #2e393f;
+    --real-medium-bl: rgb(32, 42, 48);
+    /*     
+    --dark-blue: #29343a;
+    --medium-blue: #3a4951; */
+    --bright-blue: #007bff;
+    --white: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    background-color: var(--dark-blue);
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-bar {
+    background-color: var(--medium-blue);
+    height: 50px;
+    width: 100%;
+    overflow: auto;
+}
+
+.title {
+    color: var(--white);
+    font-family: 'Comfortaa', cursive;
+    font-size: 28px;
+    font-weight: 900;
+    margin: 6px 0 0 30px;
+    float: left;
+    user-select: none;
+}
+
+.create-post-button {
+    background-color: var(--bright-blue);
+    color: var(--white);
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    width: 125px;
+    height: 32.5px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 6px;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+
+.white-text {
+    color: var(--white);
+}
+
+.blue-text {
+    color: var(--bright-blue);
+}
+
+.upload-icon{
+    font-size: 15px;
+    margin-right: 2.5px;
+}

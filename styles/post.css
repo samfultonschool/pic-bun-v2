@@ -1,0 +1,30 @@
+.main-content {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.post-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 82px 1.8fr;
+    grid-template-areas: "post-head" "post-media-container";
+    margin: 0 auto;
+    justify-items: center;
+}
+
+.post-head {
+    grid-area: post-head;
+    background-color: var(--medium-blue);
+    width: 80%;
+    height: 82px;
+}
+
+.post-media-container {
+    grid-area: post-media-container;
+    display: inline-block;
+}
+
+.post-media {
+    width: 50%
+}
