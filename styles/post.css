@@ -29,6 +29,7 @@
         background-color: var(--medium-blue);
         height: 500px;
         margin-top: 10px;
+        margin-bottom: 20px;
         border-radius: 3px;
     }
 
@@ -90,4 +91,50 @@
 
 
 
+
+
+
+
+
+.post-title{
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    overflow-wrap: break-word;
+    text-align: left;
+    padding-left: 100px;
+    width: 70%;
+    margin-top: 5px;
+}
+
+
+.title-bar-detaills-container{
+    background-color: var(--real-medium-bl);
+    height: 100%;
+    width: 83px;
+    float: left;
+    border-top-left-radius: 3px;
+}
+
+.detaills-op-prof-pic{
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-top: 10px
+}
+
+.detaills-op-username{
+    color: rgb(150, 150, 150);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 4px;
+    word-wrap: break-word
+}
 
