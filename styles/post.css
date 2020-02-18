@@ -1,32 +1,90 @@
-.main-content {
-    width: 95%;
-    margin: 0 auto;
-    margin-top: 20px;
+/* Mobile and Tablet */
+@media (min-width: 0px)  {
+    .main-content {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+    .post-container {
+        grid-area: post-head;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 82px 1.8fr;
+        grid-template-areas: "post-head" "post-media-container";
+        margin: 0 auto;
+    }
+    
+    .post-head {
+        background-color: var(--medium-blue);
+        height: 62px;
+    }
+    
+    .post-media-container {
+        grid-area: post-media-container;
+    }
+    
+    .post-media {
+        width: 100%;
+    }
+    
+    .chat-container {
+        background-color: var(--medium-blue);
+        height: 500px;
+    }
+
 }
 
-.post-container {
-    grid-area: post-head;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 82px 1.8fr;
-    grid-template-areas: "post-head" "post-media-container";
+
+
+
+
+
+
+/* Desktops && Laptops */
+@media (min-width: 1025px)  {
+    .main-content {
+        width: 80%;
+        min-width: 900px;
+        margin: 0 auto;
+        margin-top: 20px;
+        display: flex;
+    }
+    
+    .post-container {
+        grid-area: post-head;
+        display: grid;
+        min-width: 500px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 82px 1.8fr;
+        grid-template-areas: "post-head" "post-media-container";
+        margin: 0 auto;
+        flex: .7;
+    }
+    
+    .post-head {
+        background-color: var(--medium-blue);
+        height: 82px;
+    }
+    
+    .post-media-container {
+        grid-area: post-media-container;
+    }
+    
+    .post-media {
+        width: 100%;
+    }
+    
+    .chat-container {
+        background-color: var(--medium-blue);
+        height: 500px;
+        flex: .25;
+    }
+
 }
 
-.post-head {
-    background-color: var(--medium-blue);
-    width: 75%;
-    height: 82px;
-    margin: 0 auto;
-}
 
-.post-media-container {
-    grid-area: post-media-container;
-    display: inline-block;
-}
 
-.post-media {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-}
+
+
+
