@@ -44,7 +44,7 @@ html, body {
         font-family: 'Comfortaa', cursive;
         font-size: 24px;
         font-weight: 900;
-        margin: 6px 0 0 30px;
+        margin: 6px 0 0 5%;
         float: left;
         user-select: none;
     }
@@ -58,7 +58,7 @@ html, body {
         width: 100px;
         height: 26px;
         float: right;
-        margin-right: 10%;
+        margin-right: 5%;
         margin-top: 6px;
         border: none;
         border-radius: 3px;
