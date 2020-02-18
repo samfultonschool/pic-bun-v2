@@ -42,7 +42,7 @@
 @media (min-width: 1025px)  {
     .main-content {
         width: 80%;
-        height: 83.5%;
+        height: 90%;
         min-width: 900px;
         margin: 0 auto;
         margin-top: 20px;
@@ -57,7 +57,7 @@
         grid-template-rows: 82px 1.8fr;
         grid-template-areas: "post-head" "post-media-container";
         margin: 0 auto;
-        flex: .7;
+        flex: .65;
     }
     
     .post-head {
@@ -77,11 +77,11 @@
     
     .chat-container {
         background-color: var(--medium-blue);
-        flex: .25;
+        flex: .3;
         margin-top: 0px;
         height: 100%;
         min-height: 400px;
-        max-height: 1000px;
+        max-height: 850px;
     }
 
 }
