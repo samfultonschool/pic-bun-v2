@@ -1,18 +1,13 @@
 /* Mobile and Tablet */
 @media (min-width: 0px)  {
     .main-content {
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         margin-top: 20px;
     }
     
     .post-container {
-        grid-area: post-head;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 82px 1.8fr;
-        grid-template-areas: "post-head" "post-media-container";
-        margin: 0 auto;
+        
     }
     
     .post-head {
