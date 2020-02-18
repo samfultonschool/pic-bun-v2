@@ -5,19 +5,18 @@
 }
 
 .post-container {
+    grid-area: post-head;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 82px 1.8fr;
     grid-template-areas: "post-head" "post-media-container";
-    margin: 0 auto;
-    justify-items: center;
 }
 
 .post-head {
-    grid-area: post-head;
     background-color: var(--medium-blue);
-    width: 80%;
+    width: 75%;
     height: 82px;
+    margin: 0 auto;
 }
 
 .post-media-container {
@@ -26,5 +25,8 @@
 }
 
 .post-media {
-    width: 50%
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
