@@ -13,6 +13,8 @@
     .post-head {
         background-color: var(--medium-blue);
         height: 62px;
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px;
     }
     
     .post-media-container {
@@ -26,6 +28,8 @@
     .chat-container {
         background-color: var(--medium-blue);
         height: 500px;
+        margin-top: 10px;
+        border-radius: 3px;
     }
 
 }
@@ -60,6 +64,8 @@
     .post-head {
         background-color: var(--medium-blue);
         height: 82px;
+        border-top-right-radius: 3px;
+        border-top-left-radius: 3px;
     }
     
     .post-media-container {
