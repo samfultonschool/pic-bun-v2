@@ -43,7 +43,7 @@
 /* Desktops && Laptops */
 @media (min-width: 1025px)  {
     .main-content {
-        width: 80%;
+        width: 70%;
         height: 90%;
         min-width: 900px;
         margin: 0 auto;
@@ -67,6 +67,7 @@
         height: 82px;
         border-top-right-radius: 3px;
         border-top-left-radius: 3px;
+        box-shadow: 0 0 0 4px rgba(15, 15, 15, 0.144);
     }
     
     .post-media-container {
@@ -79,16 +80,20 @@
     
     .chat-container { 
         background-color: var(--medium-blue);
-        flex: .3;
-        margin-top: 0px;
-        margin-left: 10px;
+        flex: .35;
+        margin-top: 82px;
+        border-radius: 0px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
         height: 100%;
         min-height: 400px;
-        max-height: 850px;
+        max-height: 640px;
+        box-shadow: 0 0 0 4px rgba(15, 15, 15, 0.144);
     }
 
     .post-info{
         background-color: var(--notif-blue);
+        border-top-left-radius: 3px;
         width: 82px;
         height: 100%;
         float: left;
@@ -96,18 +101,36 @@
 
     .post-title{
         color: var(--white);
-        font-size: calc(10px + 0.5vw);
-        width: 85%;
+        font-size: calc(10px + 0.4vw);
+        width: 80%;
         float: left;
         margin-left: 20px;
         margin-top: 7.5px;
         overflow-wrap: break-word;
     }
 
+
+
 }
 
 
+.chat-head{
+    height: 38px;
+    width: 100%;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--notif-blue);
+}
 
+.chat-body{
+    background-color: var(--chat-container);
+    height: 82.5%;
+    width: 100%;
+}
+
+.chat-entry{
+
+}
 
 
 
